@@ -1,3 +1,5 @@
+// const login = require('./controllers/login');
+// const validateJWT = require('./auth/validateJWT');
 require('dotenv').config();
 const app = require('./api');
 
@@ -8,5 +10,7 @@ const port = process.env.API_PORT || 3000;
 app.get('/', (_request, response) => {
   response.send();
 });
+
+// app.post('/login', validateJWT, login);
 
 app.listen(port, () => console.log('ouvindo porta', port));
