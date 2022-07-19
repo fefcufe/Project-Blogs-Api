@@ -9,4 +9,6 @@ router.post('/', userValidation, controller.addUser);
 
 router.get('/', JWTvalidation, controller.getUsers);
 
+router.get('/:id', JWTvalidation, controller.getUserById);
+
 module.exports = router;
