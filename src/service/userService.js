@@ -31,7 +31,6 @@ const getUserById = async (id) => {
         { attributes: { exclude: 'password' }, 
         },
         );
-    console.log(user);
     return user;
 };
 
