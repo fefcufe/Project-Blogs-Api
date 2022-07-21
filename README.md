@@ -12,7 +12,7 @@
 
 
 
-  - ✨ **OBS**:  Arquivos de configuração do ambiente de desenvolvimento do projeto foram feitos pela equipe da Trybe. A configuração das variáveis de ambiente são autorais. 
+  - ✨ **OBS**:  Arquivos de configuração do ambiente de desenvolvimento do projeto e de população do db foram feitos pela equipe da Trybe. A configuração das variáveis de ambiente são autorais. 
 
 
 # Requisitos
