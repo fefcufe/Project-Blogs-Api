@@ -9,7 +9,8 @@ module.exports = async (req, res, next) => {
         return res.status(401).json({ message: 'Token not found' });
     }
     try {
-        jwt.verify(token, secret);
+        const decoded = jwt.verify(token, secret);
+        req.user = decoded.data;
         return next();
     } catch (e) {
         return res.status(401).json({ message: 'Expired or invalid token' });

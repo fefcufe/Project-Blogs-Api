@@ -26,11 +26,13 @@ module.exports = (sequelize, DataTypes) => {
       published: {
         type: DataTypes.DATE,
         allowNull: true,
+        defaultValue: DataTypes.NOW,
         },
     
       updated: {
         type: DataTypes.DATE,
         allowNull: true,
+        defaultValue: DataTypes.NOW,
         },
     },
     {
