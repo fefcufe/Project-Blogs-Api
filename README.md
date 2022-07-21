@@ -19,7 +19,7 @@
 
 ## 1 - Crie migrations para as entidades Users, Categories, BlogPosts, PostCategories
 
-## 2 - Crie o modelo 'User' em 'src/database/models/user.js' com as propriedades corretas
+## 2 - Crie o modelo 'User' com as propriedades corretas
 
 ## 3 - Sua aplicação deve ter o endpoint POST `/login`
 
@@ -29,15 +29,15 @@
 
 ## 6 - Sua aplicação deve ter o endpoint GET `/user/:id`
 
-## 7 - Crie o modelo 'Category' em 'src/database/models/category.js' com as propriedades corretas
+## 7 - Crie o modelo 'Category' com as propriedades corretas
 
 ## 8 - Sua aplicação deve ter o endpoint POST `/categories`
 
 ## 9 - Sua aplicação deve ter o endpoint GET `/categories`
 
-## 10 - Crie o modelo 'BlogPost' em 'src/database/models/blogPost.js' com as propriedades e associações corretas
+## 10 - Crie o modelo 'BlogPost' com as propriedades e associações corretas
 
-## 11 - Crie o modelo 'PostCategory' em 'src/database/models/postCategory.js' com as propriedades e associações corretas
+## 11 - Crie o modelo 'PostCategory' com as propriedades e associações corretas
 
 ## 12 - Sua aplicação deve ter o endpoint POST `/post`
 
