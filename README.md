@@ -1,4 +1,4 @@
-Projeto API de Blogs!
+# Projeto API de Blogs!
 
   Neste projeto foi desenvolvido uma API e um banco de dados para a produção de conteúdo para um blog. 
 
@@ -15,7 +15,7 @@ Projeto API de Blogs!
   - ✨ **OBS**:  Arquivos de configuração do ambiente de desenvolvimento do projeto foram feitos pela equipe da Trybe. A configuração das variáveis de ambiente são autorais. 
 
 
-# Requisitos Obrigatórios
+# Requisitos
 
 ## 1 - Crie migrations para as entidades Users, Categories, BlogPosts, PostCategories
 
